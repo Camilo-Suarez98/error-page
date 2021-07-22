@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+    background: linear-gradient(#474f85, #3ca59a);
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #474f85;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 200px;
+    margin: 30px;
+}
+
+.error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(#474f85, #3ca59a);
+    color: #f3ecd3;
+}
+
+.error-message .text {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message .text .error {
+    font-size: 25px;
+}
+
+.error-message .text .message {
+    font-size: 18px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ca59a;
+    height: 100px;
+}
+
+.footer a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        justify-content: center;
+    }
+
+    .error-message {
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .error-message .text {
+        justify-content: flex-start;
+    }
+
+    .error-message .text .error {
+        width: 100px;
+        text-align: center;
+    }
+
+    .error-message .text .message {
+        width: 250px;
+        text-align: center;
+    }
+
+    .error-message img {
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        justify-content: center;
+    }
+
+    .error-message {
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .error-message .text {
+        justify-content: flex-start;
+    }
+
+    .error-message .text .error {
+        width: 100px;
+        text-align: center;
+    }
+
+    .error-message .text .message {
+        width: 300px;
+        text-align: center;
+    }
+
+    .error-message img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-around;
+    }    
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        justify-content: center;
+    }
+
+    .error-message {
+        flex-direction: column;
+        height: 550px;
+    }
+
+    .error-message .text {
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    .error-message .text .error {
+        width: 100px;
+        text-align: center;
+    }
+
+    .error-message .text .message {
+        width: 300px;
+        text-align: center;
+    }
+
+    .error-message img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .footer {
+        justify-content: space-around;
+    }    
+}
